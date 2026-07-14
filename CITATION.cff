@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "Please cite this independent research publication using the metadata below."
+title: "ProjectMind: An Evidence-Frontier and Authority-Governed Project Continuity Architecture for AI Coding Agents"
+type: report
+authors:
+  - family-names: "Haxhijaha"
+    given-names: "Agim"
+    affiliation: "Independent Researcher"
+    orcid: "https://orcid.org/0009-0002-3234-7765"
+version: "4.0"
+date-released: "2026-07-14"
+license: "CC-BY-NC-ND-4.0"
+abstract: >-
+  ProjectMind is a proposed local-first project-continuity architecture for AI
+  coding agents. It combines a commit-DAG Evidence Frontier, orthogonal evidence
+  quality and policy authority, an append-only Authority Promotion Ledger, a
+  frozen Change Consequence Contract, predicted-versus-observed project-state
+  delta reconciliation, and verifiable Context and Continuity Receipts. It does
+  not claim implementation, validation, patentability, peer review, legal
+  compliance, or production readiness.
+keywords:
+  - "AI coding agents"
+  - "project continuity"
+  - "evidence frontier"
+  - "repository knowledge graph"
+  - "change consequence contract"
+  - "software provenance"
+  - "test impact analysis"
+  - "Model Context Protocol"
+  - "human authority"
+  - "local-first systems"
