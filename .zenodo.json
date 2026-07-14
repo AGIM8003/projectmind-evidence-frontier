@@ -1,0 +1,30 @@
+{
+  "title": "ProjectMind: An Evidence-Frontier and Authority-Governed Project Continuity Architecture for AI Coding Agents",
+  "description": "ProjectMind is a proposed local-first project-continuity and evidence-governance architecture for AI-assisted software development. For a target Git commit it computes a canonical Evidence Frontier, maintains claims with separate authenticity, confidence, authority, freshness, and completeness dimensions, records authority changes in an append-only ledger, and compiles task-specific knowledge into an immutable Change Consequence Contract. After a candidate is frozen, it independently reconstructs and reconciles the observed project-state and test delta and emits a Continuity Receipt. The proposal builds on established code graphs, temporal agent memory, impact analysis, MCP, provenance, policy, and attestation systems. Its contribution is the linked commit-DAG continuity-control chain, not the novelty of those components individually. This publication does not claim implementation, validation, patentability, legal compliance, peer review, certification, or production readiness.",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "creators": [
+    {
+      "name": "Haxhijaha, Agim",
+      "affiliation": "Independent Researcher",
+      "orcid": "0009-0002-3234-7765"
+    }
+  ],
+  "publication_date": "2026-07-14",
+  "version": "4.0",
+  "language": "eng",
+  "license": "cc-by-nc-nd-4.0",
+  "keywords": [
+    "AI coding agents",
+    "project continuity",
+    "evidence frontier",
+    "repository knowledge graph",
+    "change consequence contract",
+    "software provenance",
+    "test impact analysis",
+    "Model Context Protocol",
+    "human authority",
+    "local-first systems"
+  ],
+  "notes": "Independent Research Publication No. 4. v4.0 Public Research Edition. Not peer reviewed. Proposed architecture; implementation and benchmarks not supplied. Generative AI tools assisted research synthesis, prior-art comparison, consolidation, editing, consistency review, and publication preparation. The named author directed the work and is responsible for the released content and publication decision."
+}
