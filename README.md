@@ -1,5 +1,6 @@
 # ProjectMind v4.0 Public Research Edition
 
+
 This package contains a controlled-publication edition of:
 
 **ProjectMind: An Evidence-Frontier and Authority-Governed Project Continuity
