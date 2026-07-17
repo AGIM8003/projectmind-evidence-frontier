@@ -1,31 +1,46 @@
 cff-version: 1.2.0
-message: "Please cite this independent research publication using the metadata below."
+message: "If you use or discuss this work, please cite it using this metadata."
 title: "ProjectMind: An Evidence-Frontier and Authority-Governed Project Continuity Architecture for AI Coding Agents"
-type: report
+type: software
 authors:
   - family-names: "Haxhijaha"
     given-names: "Agim"
     affiliation: "Independent Researcher"
     orcid: "https://orcid.org/0009-0002-3234-7765"
-version: "4.0"
-date-released: "2026-07-14"
+    email: "agim@vertogroup.ai"
+doi: "10.5281/zenodo.21364197"
+version: "5.0.0"
+date-released: "2026-07-17"
+repository-code: "https://github.com/AGIM8003/projectmind-evidence-frontier"
 license: "CC-BY-NC-ND-4.0"
 abstract: >-
-  ProjectMind is a proposed local-first project-continuity architecture for AI
-  coding agents. It combines a commit-DAG Evidence Frontier, orthogonal evidence
-  quality and policy authority, an append-only Authority Promotion Ledger, a
-  frozen Change Consequence Contract, predicted-versus-observed project-state
-  delta reconciliation, and verifiable Context and Continuity Receipts. It does
-  not claim implementation, validation, patentability, peer review, legal
-  compliance, or production readiness.
+  AI coding agents routinely retrieve and rewrite project knowledge while operating
+  on stale, weakly supported, or unauthorized context. Code graphs, MCP tool hosts,
+  RAG memory, and test-impact analysis help, but rarely bind a commit-scoped Evidence
+  Frontier to an authority ledger and Continuity Receipt that fail closed on
+  mismatch, drift, incompleteness, or unauthorized actors. ProjectMind is a proposed
+  local-first evidence-frontier and authority-governed project continuity architecture
+  that computes a canonical Evidence Frontier per commit, maintains multi-dimension
+  claims, compiles Change Consequence Contracts, reconciles observed deltas against
+  predicted consequences, and emits Continuity Receipts with fail-closed verdicts
+  such as CONTINUITY_OK, CONTRACT_MISMATCH, AUTHORITY_VIOLATION, STALE_FRONTIER,
+  and INCOMPLETE_EVIDENCE. This Public Research Edition (v5.0.0) adds an importable,
+  stdlib-only reference research library (from projectmind import ProjectMindEngine),
+  Reality Gate PASS (8/8), benchmarks, mutation testing >=90%, an alternative-
+  implementation replication oracle, a numeric billing-module mismatch real-world
+  scenario, and stress tests to 2000 frontier nodes. It does not claim perfect program
+  analysis, semantic completeness, peer review, independent third-party replication,
+  Freedom-to-Operate clearance, or production readiness. DOI: 10.5281/zenodo.21364197.
+  Released for evaluation, citation, and attempted falsification. PDF regeneration
+  may still be required for the companion PDF artifact after this markdown uplift.
 keywords:
-  - "AI coding agents"
-  - "project continuity"
-  - "evidence frontier"
-  - "repository knowledge graph"
-  - "change consequence contract"
-  - "software provenance"
-  - "test impact analysis"
-  - "Model Context Protocol"
-  - "human authority"
-  - "local-first systems"
+  - "evidence-frontier"
+  - "project-continuity"
+  - "change-consequence-contract"
+  - "continuity-receipt"
+  - "ai-coding-agents"
+  - "authority-ledger"
+  - "test-impact"
+  - "repository-knowledge-graph"
+  - "MCP"
+  - "local-first-systems"

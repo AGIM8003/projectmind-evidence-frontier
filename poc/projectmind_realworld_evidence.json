@@ -1,0 +1,11 @@
+{
+  "mismatch": "CONTRACT_MISMATCH",
+  "ok": "CONTINUITY_OK",
+  "auth": "AUTHORITY_VIOLATION",
+  "numbers": {
+    "frontier_nodes": 4,
+    "predicted": 2,
+    "observed_extra": 1
+  },
+  "pass": true
+}

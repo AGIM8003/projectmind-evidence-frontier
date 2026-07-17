@@ -1,0 +1,48 @@
+{
+  "killed": 10,
+  "total": 10,
+  "kill_rate": 1.0,
+  "pass": true,
+  "results": [
+    {
+      "name": "ignore_authority",
+      "killed": true
+    },
+    {
+      "name": "ignore_stale",
+      "killed": true
+    },
+    {
+      "name": "rewrite_observed",
+      "killed": true
+    },
+    {
+      "name": "always_ok",
+      "killed": true
+    },
+    {
+      "name": "ignore_incomplete",
+      "killed": true
+    },
+    {
+      "name": "fake_observed",
+      "killed": true
+    },
+    {
+      "name": "hide_drift",
+      "killed": true
+    },
+    {
+      "name": "fake_frontier",
+      "killed": true
+    },
+    {
+      "name": "ignore_test_mismatch",
+      "killed": true
+    },
+    {
+      "name": "stale_as_ok",
+      "killed": true
+    }
+  ]
+}

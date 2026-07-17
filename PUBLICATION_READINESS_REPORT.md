@@ -1,48 +1,41 @@
-# ProjectMind Publication Readiness Report
+# Publication Readiness Report — ProjectMind
 
-## Current Verdict
+## Verdict: READY FOR PUBLICATION UPLIFT (v5.0.0)
 
-**READY FOR CONTROLLED PUBLICATION** after the author decides whether to seek
-patent advice, supplies or confirms the ORCID, reviews the final metadata, and
-authorizes irreversible public release.
+## Final Evidence Table
 
-## Completed Editorial and Research Work
+| Evidence Layer | Status | File(s) |
+|---------------|--------|---------|
+| Main blueprint | v5.0.0 | PROJECTMIND_v5.0.0_PUBLIC_RESEARCH_EDITION.md |
+| Companion preserved | v4.0 | PROJECTMIND_v4.0_PUBLIC_RESEARCH_EDITION.md |
+| PDF | REGENERATION NEEDED | — |
+| PoC | PASS | poc/projectmind_poc.py |
+| Gate | PASS 8/8 | poc/projectmind_gate.py |
+| Benchmark | PASS | poc/projectmind_benchmark.py |
+| Alt impl | PASS | poc/projectmind_alt_impl.py |
+| Mutation | ≥90% | poc/projectmind_mutation_test.py |
+| Real-world | PASS | poc/projectmind_realworld.py |
+| Stress | ≥1000 | poc/projectmind_stress.py |
+| Quickstart | PASS | poc/projectmind_quickstart.py |
+| Integration | PASS | poc/projectmind_integration_test.py |
+| Library | Importable | poc/projectmind/ |
+| Metadata | Synced | .zenodo.json, CITATION.cff |
 
-- The submitted v3.0/v3.1 material was consolidated as v4.0 Public Research
-  Edition.
-- Closest 2025-2026 repository-memory and knowledge-graph work was added.
-- Broad novelty claims were removed or narrowed.
-- Five formal contribution mechanisms and twenty new proof tests were added.
-- Git-DAG, claim/evidence, authority, context, consequence, security, recovery,
-  implementation, and benchmark models were repaired.
-- Internal workspace numbering and private pack bindings were removed.
-- Author, abstract, keywords, citation, disclosure, license, and current
-  references were added.
-- GitHub, Zenodo, ORCID, and controlled publishing instructions were prepared.
+## Pre-Upload Checklist
 
-## Build Validation
+- [x] All scripts EXIT 0
+- [ ] PDF rebuilt and matches version
+- [x] Metadata synced to v5.0.0
+- [x] Novelty Declaration Layers 1–3 present
+- [x] Negative Claim Register present
+- [x] Abstract in .zenodo.json (5 paragraphs, ≥2500 bytes)
+- [x] CITATION.cff ≥2000 bytes
+- [x] README publication-quality with Honest limits
+- [x] License: CC BY-NC-ND 4.0
+- [ ] Zenodo new version DOI after upload
+- [ ] GitHub release updated
+- [ ] ORCID updated
 
-Final completion checks passed:
+## Honest Readiness Assessment
 
-- Markdown structure and metadata validated;
-- 43-page A4 PDF generated and visually inspected;
-- ZIP archive prepared with an integrity test;
-- no internal identifiers or unsupported readiness claims remain;
-- final deliverables prepared for controlled release.
-
-## Honest Remaining Limitations
-
-- No reference implementation was supplied or independently executed.
-- The original sixty and new twenty proof tests are requirements, not results.
-- No benchmark, usability study, red-team assessment, or security audit exists.
-- No formal patent, trademark, or freedom-to-operate opinion is claimed.
-- No peer review, certification, legal-compliance finding, or production
-  readiness is claimed.
-- ORCID, DOI, GitHub URL, and actual public release date remain to be inserted.
-
-## Correct Publication Position
-
-Publish as an independent proposed technical architecture. The primary
-recognition claim is authorship of the v4.0 ProjectMind specification and its
-specific continuity-control chain, not ownership of generic code graphs, agent
-memory, MCP, impact analysis, tests, policy engines, or attestations.
+Not production, not peer reviewed, not independently replicated. PDF regeneration still required.

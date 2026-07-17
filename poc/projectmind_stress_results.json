@@ -1,0 +1,7 @@
+{
+  "nodes": 2000,
+  "verdict": "CONTINUITY_OK",
+  "seconds": 0.0003,
+  "peak_kib": 147.1,
+  "pass": true
+}

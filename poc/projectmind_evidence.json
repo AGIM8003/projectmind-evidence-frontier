@@ -1,0 +1,5 @@
+{
+  "ok": "CONTINUITY_OK",
+  "bad": "CONTRACT_MISMATCH",
+  "pass": true
+}

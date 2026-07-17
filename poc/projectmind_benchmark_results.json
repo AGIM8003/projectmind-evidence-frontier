@@ -1,0 +1,10 @@
+{
+  "cases": [
+    {
+      "name": "frontier_500",
+      "pass": true,
+      "seconds": 0.000128
+    }
+  ],
+  "all_pass": true
+}

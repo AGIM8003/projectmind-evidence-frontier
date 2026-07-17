@@ -1,0 +1,218 @@
+{
+  "package": "PROJECTMIND",
+  "version": "5.0.0",
+  "file_count": 42,
+  "files": [
+    {
+      "path": ".zenodo.json",
+      "bytes": 2136,
+      "sha256": "ebbaae7782db8ab9e06fe96103b524adcb8a6a2afab0e150fbe8a065fda12711"
+    },
+    {
+      "path": "00_PUBLICATION_AGENT_EXECUTION.md",
+      "bytes": 6471,
+      "sha256": "080ed1f23cf0d6e5d533f556cbee71b3111aa22aa4b3b272dc3b722de474ac10"
+    },
+    {
+      "path": "BUILD_PUBLICATION_PDF.sh",
+      "bytes": 1073,
+      "sha256": "e409d7fb4dc5654307b423a012fec1dfb4fac06fb138f15dce255de92bcebc51"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 1003,
+      "sha256": "fa0a10925e83e6b3b1b555b07f527a974920984996f8ef13d39678caf0a7c237"
+    },
+    {
+      "path": "INVENTION_CLAIM_MAP.md",
+      "bytes": 3110,
+      "sha256": "0bbe615d1e2c07dfabe08636618d52098225dd1d4870271edfda929520313c94"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 705,
+      "sha256": "46d221d0dd808725f1b2216bf7612be8959ce6ae9dabbfe91a2c6d219110ff64"
+    },
+    {
+      "path": "LINKEDIN_ANNOUNCEMENT.md",
+      "bytes": 145,
+      "sha256": "3c5976d5d1cd787d2e233c563f85796cdce417360f071dd0d3aa4b5a4053d817"
+    },
+    {
+      "path": "pdf-header.tex",
+      "bytes": 828,
+      "sha256": "0427e0f0fd4831e828c4590315a06ee6cc6965b0039a087f5a23b1ac532dfec3"
+    },
+    {
+      "path": "poc/projectmind/__init__.py",
+      "bytes": 564,
+      "sha256": "6f020938d25b8e6a4297f7ed9c27b61d59072fc44e9c46ee8fc54ea78d23198c"
+    },
+    {
+      "path": "poc/projectmind/core.py",
+      "bytes": 2543,
+      "sha256": "2ba53f3492fb27070825527e92238ad13853178cd71074df4f6a689ef43e197b"
+    },
+    {
+      "path": "poc/projectmind/engine.py",
+      "bytes": 6411,
+      "sha256": "be5cc5d0ea16d6105ec7744a60b5898ea664ff66d0a96aeb11e65d541c13414b"
+    },
+    {
+      "path": "poc/projectmind/types.py",
+      "bytes": 898,
+      "sha256": "2f4ae193f56497b2975fc287979d32623cb52a155ee8551c1312eba5f43212dd"
+    },
+    {
+      "path": "poc/projectmind/validators.py",
+      "bytes": 717,
+      "sha256": "02acb0f88cc6d8d554e6d8c6400d6ccf008e294f1889c6715240eeac3577bdd6"
+    },
+    {
+      "path": "poc/projectmind_alt_impl.py",
+      "bytes": 1788,
+      "sha256": "bdcc2e13bb1b34ce84c0c9f0d4b76e195a1b4bd891c0e284d9e772a188e60cf4"
+    },
+    {
+      "path": "poc/projectmind_benchmark.py",
+      "bytes": 893,
+      "sha256": "1c13665fd2ade4b6a19481da4d062bf57c53004866d359600ab48a78c2b25535"
+    },
+    {
+      "path": "poc/projectmind_benchmark_results.json",
+      "bytes": 137,
+      "sha256": "6e1032a1a0d83a127e9afbabf03bd71971e43f99d6c8b4f65a8e9f0f73c3f02d"
+    },
+    {
+      "path": "poc/projectmind_deploy_manifest.json",
+      "bytes": 292,
+      "sha256": "52d3160939fc4eda162d381ecf6466c2973e0d4c51ed51769c1056f33f6fe9c2"
+    },
+    {
+      "path": "poc/projectmind_evidence.json",
+      "bytes": 77,
+      "sha256": "5d2e5577f67c8ddc4be8e9125c9bdaf5598542f43597435aab19f223cc59bf84"
+    },
+    {
+      "path": "poc/projectmind_gate.py",
+      "bytes": 3815,
+      "sha256": "6c09178e199490d58de03a7bae67bf3bda58f989ce05af09f542dc771072d948"
+    },
+    {
+      "path": "poc/projectmind_gate_results.json",
+      "bytes": 894,
+      "sha256": "ddf9c6649e34cf76f4641267c9b29232978fa70dbce294011bec92494a6809d9"
+    },
+    {
+      "path": "poc/projectmind_integration_results.json",
+      "bytes": 51,
+      "sha256": "e460e87ba6b02c2fc0ae96038b58ec3756c315f80f1bf29023ff1bfbdc7b088b"
+    },
+    {
+      "path": "poc/projectmind_integration_test.py",
+      "bytes": 890,
+      "sha256": "fac8ce9536769308a3c2def01512bbec9a97900b77ca295102f0e0b1ac5df986"
+    },
+    {
+      "path": "poc/projectmind_mutation_results.json",
+      "bytes": 792,
+      "sha256": "be6f6451a5d92f7edcf0f592da7cb1efa79600e038efcb0c197e1866bace8d6d"
+    },
+    {
+      "path": "poc/projectmind_mutation_test.py",
+      "bytes": 4068,
+      "sha256": "60c4041ed6b7e454604fc9f90828ade41781a897a97211d83ddf76ef59e5f59e"
+    },
+    {
+      "path": "poc/projectmind_poc.py",
+      "bytes": 1327,
+      "sha256": "0b997843141f52597a785d7936b05aa5c1b798f2d5560982ad2c90f0e576e7fc"
+    },
+    {
+      "path": "poc/projectmind_quickstart.py",
+      "bytes": 443,
+      "sha256": "01e33f0c5dff2bea7db88143e13ec173747d9be02f1903ef67eb67771eab6abc"
+    },
+    {
+      "path": "poc/projectmind_realworld.py",
+      "bytes": 2129,
+      "sha256": "601489e8d2cd0cd36c461cde39a6e4e230da61225a84c08901ca2af7f4d36f8c"
+    },
+    {
+      "path": "poc/projectmind_realworld_evidence.json",
+      "bytes": 210,
+      "sha256": "93cf3aad7fd63450b1e35c55997b30fc6c325bea5f90067438b9af1d111845e1"
+    },
+    {
+      "path": "poc/projectmind_replication_evidence.json",
+      "bytes": 417,
+      "sha256": "88a53ebf4f11ef42d7f2bd74222c1527f798ecedbab9fa411ac16cc0d5ffa2ae"
+    },
+    {
+      "path": "poc/projectmind_stress.py",
+      "bytes": 1012,
+      "sha256": "e66b1520cb211d177a1fc2b88690d67c00e1fd8b884e17ae9b43c71869040a1f"
+    },
+    {
+      "path": "poc/projectmind_stress_results.json",
+      "bytes": 113,
+      "sha256": "6cb9e407496482dfa3a1e6ed31cd44d1efab6d38af8b3bf73f833311eb41eba1"
+    },
+    {
+      "path": "poc/REPRODUCE.md",
+      "bytes": 350,
+      "sha256": "9fe529612390ed101a0fd919de8c8114af9198cee134bd9011a8d3776385de9c"
+    },
+    {
+      "path": "PRIOR_ART_AND_INVENTION_POSITION.md",
+      "bytes": 7140,
+      "sha256": "401ae96a64a17a4e64e263d93635142877982df787bba0b9332673b523b2fd39"
+    },
+    {
+      "path": "PRIOR_ART_AND_STANDARDS_REVIEW.md",
+      "bytes": 87,
+      "sha256": "d78a160412517171f0f661556194d80730915f960d573bde7e514e7b4c49f1df"
+    },
+    {
+      "path": "PROJECTMIND_API_REFERENCE.md",
+      "bytes": 516,
+      "sha256": "5f9612b7962afd21ce3a44da7c0e8deedb1dfc0b053980f9d7df671f5d8dd1a8"
+    },
+    {
+      "path": "PROJECTMIND_v4.0_PUBLIC_RESEARCH_EDITION.md",
+      "bytes": 82031,
+      "sha256": "8e68a30e709bf7d0fbd0f431a250852346b1eee0f0eeb00aa1163af7af0cbe0f"
+    },
+    {
+      "path": "PROJECTMIND_v4.0_PUBLIC_RESEARCH_EDITION.pdf",
+      "bytes": 192774,
+      "sha256": "d486ea257595ec344c2d12c7e8daac81d87d642f60fc33f22e4e2d8a3d66db0d"
+    },
+    {
+      "path": "PROJECTMIND_v5.0.0_PUBLIC_RESEARCH_EDITION.md",
+      "bytes": 87426,
+      "sha256": "f01ed52818f6f00c8a31df91d96031a63946de540e5cc9740c4d55aa7400f43b"
+    },
+    {
+      "path": "PUBLIC_EDITION_CHANGELOG.md",
+      "bytes": 156,
+      "sha256": "c0930cb555356f6e0f6d3fb0090c873410cbc44faf5090937f57342e43a26991"
+    },
+    {
+      "path": "PUBLICATION_READINESS_REPORT.md",
+      "bytes": 114,
+      "sha256": "053ab6adb8639bc1a808c041002a22c5d974b19b204d5706dd95dd60f0d21463"
+    },
+    {
+      "path": "README.md",
+      "bytes": 471,
+      "sha256": "7d04d64f3ea9dd4b3dd4ef754352f96e02ae1e795a260ad7ab76b024c267be91"
+    },
+    {
+      "path": "SSOT.md",
+      "bytes": 91,
+      "sha256": "0eaa9fd6566a12335a47146fd6e067441f2200f940f7df27562fab085382851a"
+    }
+  ],
+  "note": "PDF REGENERATION NEEDED"
+}

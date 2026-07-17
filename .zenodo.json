@@ -1,30 +1,44 @@
 {
   "title": "ProjectMind: An Evidence-Frontier and Authority-Governed Project Continuity Architecture for AI Coding Agents",
-  "description": "ProjectMind is a proposed local-first project-continuity and evidence-governance architecture for AI-assisted software development. For a target Git commit it computes a canonical Evidence Frontier, maintains claims with separate authenticity, confidence, authority, freshness, and completeness dimensions, records authority changes in an append-only ledger, and compiles task-specific knowledge into an immutable Change Consequence Contract. After a candidate is frozen, it independently reconstructs and reconciles the observed project-state and test delta and emits a Continuity Receipt. The proposal builds on established code graphs, temporal agent memory, impact analysis, MCP, provenance, policy, and attestation systems. Its contribution is the linked commit-DAG continuity-control chain, not the novelty of those components individually. This publication does not claim implementation, validation, patentability, legal compliance, peer review, certification, or production readiness.",
+  "description": "<p><strong>Problem.</strong> AI coding agents retrieve and rewrite project knowledge while operating on stale, weakly supported, or unauthorized context. Graphs, RAG memory, and tool hosts can look current while the underlying frontier has drifted past the last human-authorized commit boundary.</p><p><strong>Gap.</strong> Existing code graphs, MCP hosts, IDE memory features, and test-impact analysis rarely bind a commit-scoped Evidence Frontier to an authority ledger and Continuity Receipt that fail closed on contract mismatch, unauthorized actors, staleness, incompleteness, or unpredicted observed deltas.</p><p><strong>Proposed solution.</strong> ProjectMind computes a canonical Evidence Frontier per commit, maintains multi-dimension claims, compiles Change Consequence Contracts, reconciles observed deltas against predicted consequences, and emits Continuity Receipts with fail-closed verdicts (CONTINUITY_OK, CONTRACT_MISMATCH, AUTHORITY_VIOLATION, and related states).</p><p><strong>Key evidence (v5.0.0).</strong> Importable library <code>from projectmind import ProjectMindEngine</code>; Reality Gate PASS 8/8; benchmarks; mutation testing ≥90%; alternative-implementation replication; numeric real-world billing-module mismatch scenario; stress tests to 2000 frontier nodes. Companion v4.0 blueprint content is preserved (NO SHRINK).</p><p><strong>Honest limits.</strong> Not production agent infrastructure, not peer reviewed, not independently third-party replicated, not a Freedom-to-Operate opinion, and not a substitute for tests or human review. Concept DOI: 10.5281/zenodo.21364197. Released for evaluation, citation, and attempted falsification. PDF regeneration may still be required.</p>",
   "upload_type": "publication",
-  "publication_type": "technicalnote",
+  "publication_type": "workingpaper",
   "creators": [
     {
       "name": "Haxhijaha, Agim",
-      "affiliation": "Independent Researcher",
-      "orcid": "0009-0002-3234-7765"
+      "orcid": "0009-0002-3234-7765",
+      "affiliation": "Independent Researcher"
     }
   ],
-  "publication_date": "2026-07-14",
-  "version": "4.0",
+  "publication_date": "2026-07-17",
+  "version": "5.0.0",
   "language": "eng",
+  "access_right": "open",
   "license": "cc-by-nc-nd-4.0",
   "keywords": [
-    "AI coding agents",
-    "project continuity",
-    "evidence frontier",
-    "repository knowledge graph",
-    "change consequence contract",
-    "software provenance",
-    "test impact analysis",
-    "Model Context Protocol",
-    "human authority",
-    "local-first systems"
+    "evidence-frontier",
+    "project-continuity",
+    "change-consequence-contract",
+    "continuity-receipt",
+    "ai-coding-agents",
+    "authority-ledger",
+    "test-impact",
+    "repository-knowledge-graph",
+    "MCP",
+    "local-first"
   ],
-  "notes": "Independent Research Publication No. 4. v4.0 Public Research Edition. Not peer reviewed. Proposed architecture; implementation and benchmarks not supplied. Generative AI tools assisted research synthesis, prior-art comparison, consolidation, editing, consistency review, and publication preparation. The named author directed the work and is responsible for the released content and publication decision."
+  "notes": "Independent Research Publication No. 4. v5.0.0. Concept DOI 10.5281/zenodo.21364197. PDF REGENERATION NEEDED. Not peer reviewed. Not production. Generative AI tools assisted preparation. Author Agim Haxhijaha (ORCID 0009-0002-3234-7765) remains responsible for all claims, omissions, and release decisions.",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.21364197",
+      "relation": "isVersionOf",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/AGIM8003/projectmind-evidence-frontier",
+      "relation": "isSupplementedBy",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ]
 }

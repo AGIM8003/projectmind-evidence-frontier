@@ -1,0 +1,14 @@
+{
+  "service": "projectmind-continuity",
+  "version": "5.0.0",
+  "compute": {
+    "vcpu": 2,
+    "memory_gib": 4,
+    "storage_gib": 40
+  },
+  "api": {
+    "base": "/api/v1/projectmind",
+    "health": "/health"
+  },
+  "note": "Requirements only \u2014 not implemented controls"
+}

@@ -1,0 +1,23 @@
+{
+  "rows": [
+    {
+      "i": 0,
+      "engine": "CONTINUITY_OK",
+      "oracle": "CONTINUITY_OK",
+      "match": true
+    },
+    {
+      "i": 1,
+      "engine": "CONTRACT_MISMATCH",
+      "oracle": "CONTRACT_MISMATCH",
+      "match": true
+    },
+    {
+      "i": 2,
+      "engine": "STALE_FRONTIER",
+      "oracle": "STALE_FRONTIER",
+      "match": true
+    }
+  ],
+  "replication_pass": true
+}

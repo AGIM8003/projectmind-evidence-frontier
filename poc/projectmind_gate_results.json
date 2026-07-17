@@ -1,0 +1,49 @@
+{
+  "gate": "ProjectMind Reality Gate",
+  "passed": 8,
+  "total": 8,
+  "all_pass": true,
+  "timestamp": "2026-07-17T07:38:11.040090+00:00",
+  "results": [
+    {
+      "name": "continuity_ok",
+      "pass": true,
+      "error": null
+    },
+    {
+      "name": "contract_mismatch",
+      "pass": true,
+      "error": null
+    },
+    {
+      "name": "authority_violation",
+      "pass": true,
+      "error": null
+    },
+    {
+      "name": "stale_frontier",
+      "pass": true,
+      "error": null
+    },
+    {
+      "name": "incomplete_evidence",
+      "pass": true,
+      "error": null
+    },
+    {
+      "name": "pending",
+      "pass": true,
+      "error": null
+    },
+    {
+      "name": "continuity_drift",
+      "pass": true,
+      "error": null
+    },
+    {
+      "name": "receipt_digest",
+      "pass": true,
+      "error": null
+    }
+  ]
+}
